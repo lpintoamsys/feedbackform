@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         // Simple validation - ensure all fields are filled
         if (!name || !email || !department || !location || !rating || !feedback) {
-            alert('Please fill in all fields.');
+            alert('Please fill in all the mandatory fields.');
             return;
         }
         
